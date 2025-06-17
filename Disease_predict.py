@@ -18,4 +18,5 @@ symptoms = [
     "yellow_eyes"
 ]
 
-
+# Load dataset
+df = pd.read_csv("improved_disease_dataset.csv")
