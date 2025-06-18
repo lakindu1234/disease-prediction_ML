@@ -20,3 +20,7 @@ symptoms = [
 
 # Load dataset
 df = pd.read_csv("improved_disease_dataset.csv")
+
+# Split data
+X = df.drop('disease', axis=1)
+y = df['disease']
