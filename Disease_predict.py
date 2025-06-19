@@ -24,3 +24,6 @@ df = pd.read_csv("improved_disease_dataset.csv")
 # Split data
 X = df.drop('disease', axis=1)
 y = df['disease']
+
+# Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
