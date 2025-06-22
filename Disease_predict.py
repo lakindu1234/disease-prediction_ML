@@ -36,3 +36,6 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
+
+# Get user input
+print("\nPlease enter 1 if you have the symptom or 0 if you don't:\n")
