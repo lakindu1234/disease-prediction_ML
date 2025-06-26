@@ -39,3 +39,12 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 # Get user input
 print("\nPlease enter 1 if you have the symptom or 0 if you don't:\n")
+
+user_input = []
+for symptom in symptoms:
+    while True:
+        try:
+            val = int(input(f"{symptom.capitalize()}: "))
+            if val in [0, 1]:
+                user_input.append(val)
+                break
