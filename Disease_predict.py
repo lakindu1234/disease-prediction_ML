@@ -48,3 +48,7 @@ for symptom in symptoms:
             if val in [0, 1]:
                 user_input.append(val)
                 break
+            else:
+                print("Please enter 1 or 0 only.")
+        except ValueError:
+            print("Please enter a valid number (1 or 0).")
