@@ -52,3 +52,7 @@ for symptom in symptoms:
                 print("Please enter 1 or 0 only.")
         except ValueError:
             print("Please enter a valid number (1 or 0).")
+
+# Predict diseasez
+prediction = model.predict([user_input])
+print("\n✅ Predicted Disease:", prediction[0])
