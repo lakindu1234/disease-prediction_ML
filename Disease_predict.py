@@ -56,3 +56,7 @@ for symptom in symptoms:
 # Predict diseasez
 prediction = model.predict([user_input])
 print("\n✅ Predicted Disease:", prediction[0])
+
+
+# Save model (optional)
+joblib.dump(model, 'disease_prediction_model.pkl')
