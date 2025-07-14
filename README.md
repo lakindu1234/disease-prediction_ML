@@ -14,3 +14,5 @@
 <img width="1152" height="698" alt="image" src="https://github.com/user-attachments/assets/3bdb128e-8c22-4ddf-9014-c7db2aeeff13" />
 
 5) After User Enter symptoms It can be predict the diseases
+
+6) The Python program will read the dataset and give the prediction. 
