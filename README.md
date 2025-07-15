@@ -15,4 +15,8 @@
 
 5) After User Enter symptoms It can be predict the diseases
 
-6) The Python program will read the dataset and give the prediction. 
+6) The Python program will read the dataset and give the prediction.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d4b365e3-452e-41a7-8d14-9e63eb90ceae" />
+
+## This is How Program ask about symptoms from the User 
