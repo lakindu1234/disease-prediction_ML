@@ -20,3 +20,5 @@
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d4b365e3-452e-41a7-8d14-9e63eb90ceae" />
 
 ## This is How Program ask about symptoms from the User 
+
+7) After Users enter Symptoms it will predict the Disease
