@@ -22,4 +22,4 @@
 ## This is How Program ask about symptoms from the User 
 
 7) After Users enter Symptoms it will predict the Disease
-8) After that USer can Exit the Program
+8) After that User can Exit the Program
